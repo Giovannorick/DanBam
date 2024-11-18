@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Style/global.css" />
+    <link rel="stylesheet" href="Style/menu.css" />
+    <link rel="shortcut icon" href="Assets/logo/Danbam Logo.svg" />
+    <script src="script/image-slider.js" defer></script>
+    <script src="script/toggleMenu.js" defer></script>
+    <script src="script/scroll.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.16/dist/lenis.min.js"></script>
+    <title>Menu</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html">
+          <img src="assets/logo/Danbam Logo.svg" />
+        </a>
+      </div>
+      <button class="menu-toggle" aria-label="Toggle navigation">
+        <img src="Assets/icon/menu.svg" alt="Menu Icon" />
+      </button>
+      <nav class="nav-container">
+        <ul class="nav-menu">
+          <li>
+            <a href="menu.html">Menu</a>
+            <ul class="dropdown">
+              <li><a href="main-dish.html">Main Dish</a></li>
+              <li><a href="desserts.html">Desserts</a></li>
+              <li><a href="beverages.html">Beverages</a></li>
+            </ul>
+          </li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="location.html">Location</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="menu-container">
+        <section class="slider-container">
+          <div class="slider">
+            <div class="slide">
+              <img src="Assets/image-slider/1.svg" alt="Slide 1" />
+            </div>
+            <div class="slide">
+              <img src="Assets/image-slider/2.svg" alt="Slide 2" />
+            </div>
+            <div class="slide">
+              <img src="Assets/image-slider/3.svg" alt="Slide 3" />
+            </div>
+          </div>
+          <div class="indicator-container"></div>
+        </section>
+        <div class="main-title section-title">
+          <h1>OUR MENU</h1>
+          <h3>당사의 메뉴</h3>
+        </div>
+        <section class="category">
+          <div class="product-boxes">
+            <div class="product-item">
+              <a href="main-dish.html">
+                <div class="product-image">
+                  <img src="assets/category/main dish.svg" />
+                </div>
+              </a>
+            </div>
+            <div class="product-item">
+              <a href="desserts.html">
+                <div class="product-image">
+                  <img src="assets/category/desserts.svg" />
+                </div>
+              </a>
+            </div>
+            <div class="product-item">
+              <a href="beverages.html">
+                <div class="product-image">
+                  <img src="assets/category/beverages.svg" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section social-media">
+          <h4>Follow Us</h4>
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/"
+                ><img src="assets/icon/facebook.svg" alt="Facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com"
+                ><img src="assets/icon/instagram.svg" alt="Instagram"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com"
+                ><img src="assets/icon/twitter.svg" alt="Twitter"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com"
+                ><img src="assets/icon/youtube.svg" alt="YouTube"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2021 Danbam. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Style/global.css" />
+    <link rel="stylesheet" href="Style/menu.css" />
+    <link rel="shortcut icon" href="Assets/logo/Danbam Logo.svg" />
+    <script src="script/toggleMenu.js" defer></script>
+    <script src="script/scroll.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.16/dist/lenis.min.js"></script>
+    <title>Beverages</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html">
+          <img src="assets/logo/Danbam Logo.svg" />
+        </a>
+      </div>
+      <button class="menu-toggle" aria-label="Toggle navigation">
+        <img src="Assets/icon/menu.svg" alt="Menu Icon" />
+      </button>
+      <nav class="nav-container">
+        <ul class="nav-menu">
+          <li>
+            <a href="menu.html">Menu</a>
+            <ul class="dropdown">
+              <li><a href="main-dish.html">Main Dish</a></li>
+              <li><a href="desserts.html">Desserts</a></li>
+              <li><a href="beverages.html">Beverages</a></li>
+            </ul>
+          </li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="location.html">Location</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="menu-container">
+        <section class="category">
+          <div class="product-boxes">
+            <div class="product-item">
+              <a href="main-dish.html">
+                <div class="product-image">
+                  <img src="assets/category/main dish.svg" />
+                </div>
+              </a>
+            </div>
+            <div class="product-item">
+              <a href="desserts.html">
+                <div class="product-image">
+                  <img src="assets/category/desserts.svg" />
+                </div>
+              </a>
+            </div>
+            <div class="product-item">
+              <a href="beverages.html">
+                <div class="product-image">
+                  <img src="assets/category/beverages.svg" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+        <div class="main-title section-three">
+          <h1>Beverages</h1>
+          <h3>음료</h3>
+        </div>
+        <div class="menu-items">
+          <div class="item drink">
+            <div class="item-image">
+              <img src="Assets/menu/Makgeolli.svg" />
+            </div>
+            <div class="item-details">
+              <h3 class="item-name">Makgeolli</h3>
+              <p class="item-price">₩ 4500</p>
+              <p class="item-desc">
+                Makgeolli is a traditional Korean rice wine with a slightly
+                sweet and tangy flavor. It is milky-white in appearance and has
+                a smooth, refreshing taste. Made from fermented rice, makgeolli
+                is a popular alcoholic beverage in Korea, enjoyed for its unique
+                flavor and cultural significance.
+              </p>
+            </div>
+            <div class="buttons-menu">
+              <button
+                class="btn btn-order"
+                onclick="window.location.href='contact.html'">
+                Order
+              </button>
+            </div>
+          </div>
+          <div class="item drink">
+            <div class="item-image">
+              <img src="Assets/menu/Soju.svg" />
+            </div>
+            <div class="item-details">
+              <h3 class="item-name">Soju</h3>
+              <p class="item-price">₩ 3000</p>
+              <p class="item-desc">
+                Soju is a clear, distilled alcoholic beverage that originated in
+                Korea. It is traditionally made from rice, but can also be
+                produced from other grains like barley or sweet potatoes. Soju
+                has a clean taste and smooth with a hint of sweetness, popular
+                choice for social gatherings in Korea.
+              </p>
+            </div>
+            <div class="buttons-menu">
+              <button
+                class="btn btn-order"
+                onclick="window.location.href='contact.html'">
+                Order
+              </button>
+            </div>
+          </div>
+          <div class="item drink">
+            <div class="item-image">
+              <img src="Assets/menu/Sikhye.svg" />
+            </div>
+            <div class="item-details">
+              <h3 class="item-name">Sikhye</h3>
+              <p class="item-price">₩ 2500</p>
+              <p class="item-desc">
+                Sikhye is a traditional Korean sweet rice beverage. It is made
+                by fermenting cooked rice with malt barley and adding sugar for
+                sweetness. Sikhye has a refreshing and slightly sweet flavor
+                with a hint of malt. It is often served chilled and enjoyed as a
+                dessert or a refreshing drink in Korea.
+              </p>
+            </div>
+            <div class="buttons-menu">
+              <button
+                class="btn btn-order"
+                onclick="window.location.href='contact.html'">
+                Order
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section social-media">
+          <h4>Follow Us</h4>
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/"
+                ><img src="assets/icon/facebook.svg" alt="Facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com"
+                ><img src="assets/icon/instagram.svg" alt="Instagram"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com"
+                ><img src="assets/icon/twitter.svg" alt="Twitter"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com"
+                ><img src="assets/icon/youtube.svg" alt="YouTube"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2021 Danbam. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

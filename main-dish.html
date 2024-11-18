@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Style/global.css" />
+    <link rel="stylesheet" href="Style/menu.css" />
+    <link rel="shortcut icon" href="Assets/logo/Danbam Logo.svg" />
+    <script src="script/toggleMenu.js" defer></script>
+    <script src="script/scroll.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.16/dist/lenis.min.js"></script>
+    <title>Main Dish</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html">
+          <img src="assets/logo/Danbam Logo.svg" />
+        </a>
+      </div>
+      <button class="menu-toggle" aria-label="Toggle navigation">
+        <img src="Assets/icon/menu.svg" alt="Menu Icon" />
+      </button>
+      <nav class="nav-container">
+        <ul class="nav-menu">
+          <li>
+            <a href="menu.html">Menu</a>
+            <ul class="dropdown">
+              <li><a href="main-dish.html">Main Dish</a></li>
+              <li><a href="desserts.html">Desserts</a></li>
+              <li><a href="beverages.html">Beverages</a></li>
+            </ul>
+          </li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="location.html">Location</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="menu-container">
+        <section class="category">
+          <div class="product-boxes">
+            <div class="product-item">
+              <a href="main-dish.html">
+                <div class="product-image">
+                  <img src="assets/category/main dish.svg" />
+                </div>
+              </a>
+            </div>
+            <div class="product-item">
+              <a href="desserts.html">
+                <div class="product-image">
+                  <img src="assets/category/desserts.svg" />
+                </div>
+              </a>
+            </div>
+            <div class="product-item">
+              <a href="beverages.html">
+                <div class="product-image">
+                  <img src="assets/category/beverages.svg" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+        <div class="main-title section-one">
+          <h1>Main Dish</h1>
+          <h3>메인 요리</h3>
+        </div>
+        <div class="menu-items">
+          <div class="item dish">
+            <div class="item-image">
+              <img src="Assets/menu/Jajangmyeon.svg" />
+            </div>
+            <div class="item-details">
+              <h3 class="item-name">Jajangmyeon</h3>
+              <p class="item-price">₩ 3500</p>
+              <p class="item-desc">
+                Jajangmyeon is a popular Korean dish featuring thick wheat
+                noodles served with a flavorful and dark jajang sauce made from
+                black bean paste, stir-fried with diced pork or beef, onions,
+                and vegetables, providing a satisfyingly chewy texture and a
+                well-balanced combination of savory and slightly sweet flavors.
+              </p>
+            </div>
+            <div class="buttons-menu">
+              <button
+                class="btn btn-order"
+                onclick="window.location.href='contact.html'">
+                Order
+              </button>
+            </div>
+          </div>
+          <div class="item dish">
+            <div class="item-image">
+              <img src="Assets/menu/Tteokbokki.svg" />
+            </div>
+            <div class="item-details">
+              <h3 class="item-name">Tteokbokki</h3>
+              <p class="item-price">₩ 5000</p>
+              <p class="item-desc">
+                Tteokbokki is a popular Korean street food dish consisting of
+                chewy rice cakes stir-fried in a spicy and savory sauce. It is
+                often accompanied by fish cakes, vegetables, and a rich red
+                pepper paste. Tteokbokki offers a delightful combination of
+                textures and flavors, providing a satisfying and spicy culinary
+                experience.
+              </p>
+            </div>
+            <div class="buttons-menu">
+              <button
+                class="btn btn-order"
+                onclick="window.location.href='contact.html'">
+                Order
+              </button>
+            </div>
+          </div>
+          <div class="item dish">
+            <div class="item-image">
+              <img src="Assets/menu/Naengmyeon.svg" />
+            </div>
+            <div class="item-details">
+              <h3 class="item-name">Naengmyeon</h3>
+              <p class="item-price">₩ 12000</p>
+              <p class="item-desc">
+                Naengmyeon is a refreshing Korean noodle dish traditionally
+                served cold. It features long, thin buckwheat noodles in a tangy
+                broth, garnished with cucumber, radish, and a boiled egg.
+                Naengmyeon offers a cooling sensation and is perfect for hot
+                summer days, providing a unique blend of flavors and textures.
+              </p>
+            </div>
+            <div class="buttons-menu">
+              <button
+                class="btn btn-order"
+                onclick="window.location.href='contact.html'">
+                Order
+              </button>
+            </div>
+          </div>
+          <div class="item dish">
+            <div class="item-image">
+              <img src="Assets/menu/Bibimbap.svg" />
+            </div>
+            <div class="item-details">
+              <h3 class="item-name">Bibimbap</h3>
+              <p class="item-price">₩ 13000</p>
+              <p class="item-desc">
+                Bibimbap is a popular Korean rice dish that combines an
+                assortment of colorful vegetables, marinated meat, and a fried
+                egg on top of a bed of steamed rice. It's served with spicy
+                gochujang sauce on the side, allowing you to mix and enjoy a
+                harmonious blend of flavors and textures in each bite.
+              </p>
+            </div>
+            <div class="buttons-menu">
+              <button
+                class="btn btn-order"
+                onclick="window.location.href='contact.html'">
+                Order
+              </button>
+            </div>
+          </div>
+          <div class="item dish">
+            <div class="item-image">
+              <img src="Assets/menu/Bulgogi.svg" />
+            </div>
+            <div class="item-details">
+              <h3 class="item-name">Bulgogi Deopbap</h3>
+              <p class="item-price">₩ 25000</p>
+              <p class="item-desc">
+                Bulgogi Deopbap is a delicious Korean dish featuring tender,
+                marinated beef cooked to perfection and served over a bed of
+                steamed rice. The beef is thinly sliced, marinated in a savory
+                blend of soy sauce, garlic, and other seasonings, creating a
+                rich and flavorful meal that is both satisfying and delightful.
+              </p>
+            </div>
+            <div class="buttons-menu">
+              <button
+                class="btn btn-order"
+                onclick="window.location.href='contact.html'">
+                Order
+              </button>
+            </div>
+          </div>
+          <div class="item dish">
+            <div class="item-image">
+              <img src="Assets/menu/Kimchi Jjigae.svg" />
+            </div>
+            <div class="item-details">
+              <h3 class="item-name">Kimchi Jjigae</h3>
+              <p class="item-price">₩ 10000</p>
+              <p class="item-desc">
+                Kimchi Jjigae is a spicy and hearty Korean stew made with
+                fermented cabbage, pork, tofu, and various vegetables. Packed
+                with bold flavors, this comforting dish is known for its tangy
+                and spicy taste. It's a perfect combination of fermented
+                goodness and satisfying ingredients that will warm you up with
+                every spoonful.
+              </p>
+            </div>
+            <div class="buttons-menu">
+              <button
+                class="btn btn-order"
+                onclick="window.location.href='contact.html'">
+                Order
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section social-media">
+          <h4>Follow Us</h4>
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/"
+                ><img src="assets/icon/facebook.svg" alt="Facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com"
+                ><img src="assets/icon/instagram.svg" alt="Instagram"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com"
+                ><img src="assets/icon/twitter.svg" alt="Twitter"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com"
+                ><img src="assets/icon/youtube.svg" alt="YouTube"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2021 Danbam. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
