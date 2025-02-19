@@ -6,67 +6,55 @@
   flex-direction: column;
   align-items: center;
 }
-
 .main-title {
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
 }
-
 .main-title h1 {
   font-size: 80px;
   text-transform: uppercase;
 }
-
 .main-title h3 {
   font-size: 30px;
   text-transform: uppercase;
 }
-
 .neon,
 .contact-info h2 {
   color: #9b5fc0;
-  text-shadow: 0 0 5px rgba(155, 95, 192, 0.8), 0 0 15px rgba(155, 95, 192, 0.6);
+  text-shadow: 0 0 5px rgb(155 95 192 / 0.8), 0 0 15px rgb(155 95 192 / 0.6);
   animation: glowPurple 3s ease-in-out infinite alternate;
 }
-
 @keyframes glowPurple {
   0% {
-    text-shadow: 0 0 5px rgba(155, 95, 192, 0.8),
-      0 0 15px rgba(155, 95, 192, 0.6);
+    text-shadow: 0 0 5px rgb(155 95 192 / 0.8), 0 0 15px rgb(155 95 192 / 0.6);
   }
   50% {
-    text-shadow: 0 0 10px rgba(155, 95, 192, 0.8),
-      0 0 20px rgba(155, 95, 192, 0.6);
+    text-shadow: 0 0 10px rgb(155 95 192 / 0.8), 0 0 20px rgb(155 95 192 / 0.6);
   }
   100% {
-    text-shadow: 0 0 5px rgba(155, 95, 192, 0.8),
-      0 0 15px rgba(155, 95, 192, 0.6);
+    text-shadow: 0 0 5px rgb(155 95 192 / 0.8), 0 0 15px rgb(155 95 192 / 0.6);
   }
 }
-
 .location-item {
   display: flex;
   background-color: #040303;
   padding: 50px;
   margin-bottom: 40px;
   border-radius: 10px;
-  color: white;
+  color: #fff;
 }
-
 .itaewon,
 .gwangju,
 .sangju {
-  box-shadow: 0 2px 5px 4px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 2px 5px 4px rgb(255 255 255 / 0.1);
   transition: box-shadow 0.3s ease;
 }
-
 .itaewon:hover,
 .gwangju:hover,
 .sangju:hover {
-  box-shadow: 0 12px 20px 4px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 12px 20px 4px rgb(255 255 255 / 0.2);
 }
-
 .map-location {
   width: 50%;
   height: auto;
@@ -74,27 +62,22 @@
   margin-left: 30px;
   margin-right: 30px;
 }
-
 .item-image img {
   width: 100%;
   height: auto;
   border-radius: 10px;
 }
-
 .contact-info {
   padding: 50px;
 }
-
 .contact-info > h2 {
   margin-bottom: 10px;
   font-size: 30px;
 }
-
 .contact-location,
 .contact-phone {
   display: flex;
 }
-
 .contact-location > p,
 .contact-phone > p {
   text-wrap: balance;
@@ -102,17 +85,14 @@
   margin-top: 8px;
   margin-right: 10px;
 }
-
 @media screen and (max-width: 1086px) {
   .item-image img {
     display: none;
   }
-
   .map-location {
     width: auto;
     margin: 20px 0;
   }
-
   .contact-location > p,
   .contact-phone > p {
     text-wrap: balance;
@@ -121,30 +101,24 @@
     margin-right: 10px;
   }
 }
-
 @media screen and (max-width: 768px) {
   .main-title > h1 {
     font-size: 40px;
   }
-
   .location-item {
     flex-direction: column;
   }
-
   .map-location {
     width: auto;
     margin: 20px 0;
   }
-
   .contact-info {
     padding: 20px;
     text-align: center;
   }
-
   .item-image img {
     height: auto;
   }
-
   .contact-location > p,
   .contact-phone > p {
     text-wrap: wrap;
@@ -153,35 +127,28 @@
     margin-right: 10px;
   }
 }
-
 @media screen and (max-width: 576px) {
   .main-title > h1 {
     font-size: 30px;
   }
-
   .location-item {
     padding: 20px;
   }
-
   .map-location {
     height: 200px;
     margin: 20px 0;
   }
-
   .contact-info {
     padding: 10px;
   }
-
   .item-image img {
     height: 150px;
   }
-
   .contact-location,
   .contact-phone {
     flex-direction: column;
     align-items: center;
   }
-
   .contact-location > i,
   .contact-location > p,
   .contact-phone > i,
