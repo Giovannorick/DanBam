@@ -6,7 +6,6 @@ window.addEventListener("scroll", function () {
     header.classList.add("transparent");
   }
 });
-
 let scrollTimeout;
 window.addEventListener("scroll", () => {
   if (scrollTimeout) clearTimeout(scrollTimeout);
